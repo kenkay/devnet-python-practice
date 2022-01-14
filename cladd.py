@@ -1,10 +1,10 @@
 while True:
     class calc():
-        def initcalc():
+        def initCalc():
             mathfx = input ('Please use "d" for divide or "a" for addition: ')
             return mathfx
 
-    pick = calc.initcalc()
+    pick = calc.initCalc()
 
     if pick == 'a':
         def sum():
