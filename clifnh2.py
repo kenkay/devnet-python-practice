@@ -11,15 +11,15 @@ class flow:
         # print (unit)
         # print (type(unit))
 
-# x = print(flow.passDown(''))
-x = flow.passDown()
+# x = print(flow.passDown())
+z = flow.passDown()
 # print (type(x))
 
 
 class downProc():
     def prPoc():
         # self.proc = proc 
-        print ("executing prPoc fx", x)
+        print (z)
 
 # y = downProc.prPoc()
 # print (type(y))
